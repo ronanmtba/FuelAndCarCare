@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background"
+    tools:context="com.dornier.fuelcarcare.ActivityLogin">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/icon_nobg"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/full_screen_margin"
+        android:layout_marginRight="@dimen/full_screen_margin"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:background="@drawable/field_layout"
+        android:id="@+id/LoginEmail"
+        android:hint="@string/email"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:background="@drawable/field_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/LoginPassword"
+        android:hint="@string/password"
+        android:layout_below="@+id/LoginEmail"
+        android:layout_alignStart="@+id/LoginEmail"
+        android:layout_alignEnd="@+id/LoginEmail"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:text="@string/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_layout"
+        android:id="@+id/LoginRegister"
+        android:layout_alignBaseline="@+id/LoginLogin"
+        android:layout_alignBottom="@+id/LoginLogin"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp" />
+
+
+    <Button
+        android:text="@string/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="19dp"
+        android:background="@drawable/button_layout"
+        android:id="@+id/LoginLogin"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp" />
+
+
+</RelativeLayout>

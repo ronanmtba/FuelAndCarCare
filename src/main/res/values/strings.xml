@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name"         >Fuel &amp; Car Care</string>
+    <string name="email"            >Email</string>
+    <string name="password"         >Senha</string>
+    <string name="login"            >Login</string>
+    <string name="register"         >Registrar</string>
+    <string name="add_new_car"      >Adicionar veiculo</string>
+    <string name="confirm_password" >Confirmar senha</string>
+    <string name="confirm"          >Confirmar</string>
+    <string name="location"         >Local(opcional)</string>
+    <string name="ok"               > OK </string>
+    <string name="fuel_amount"      >Litros de combustivel</string>
+    <string name="fuel_price"       >Preço do combustível</string>
+    <string name="final_price"      >Valor final</string>
+    <string name="item_name"        >Nome do item</string>
+    <string name="date_check"       >Data de troca</string>
+    <string name="kilometers_check" >Alertar ao chegar a *** quilometros</string>
+    <string name="name"             >Nome</string>
+    <string name="price"            >Preço</string>
+    <string name="quantity"         >Quantidade</string>
+    <string name="manufacturer"      >Montadora</string>
+    <string name="model"            >Modelo</string>
+    <string name="year"             >Ano</string>
+
+    <string name="fuel_prompt">Escolha o combustivel</string>
+
+    <string-array name="fuel_arrays">
+        <item>Gasolina</item>
+        <item>Etanol</item>
+        <item>Diesel</item>
+        <item>GNV</item>
+    </string-array>
+</resources>

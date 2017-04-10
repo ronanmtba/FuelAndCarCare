@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0a445c"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/DialogExpenseComponentName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/item_name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/DialogExpensePrice"
+            android:hint="@string/price"
+            android:inputType="numberDecimal"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/DialogExpenseQuantity"
+            android:hint="@string/quantity"
+            android:inputType="numberDecimal"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/DialogExpenseDate"
+            android:inputType="date"
+            />
+
+        <Button
+            android:id="@+id/DialogExpenseButtonOK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ok"
+            android:textColor="#fff"
+            android:background="@drawable/button_layout"
+            />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0a445c"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/DialogEditVehicleName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/name"
+            android:inputType="text"
+            />
+
+        <EditText
+            android:id="@+id/DialogEditVehicleManufacturer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/manufacturer"
+            android:inputType="text" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/DialogEditVehicleModel"
+            android:hint="@string/model"
+            android:inputType="text"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/DialogEditVehicleYear"
+            android:hint="@string/year"
+            android:inputType="number"
+            />
+
+        <Button
+            android:id="@+id/DialogEditVehicleButtonOK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ok"
+            android:textColor="#fff"
+            android:background="@drawable/button_layout"
+            />
+
+    </LinearLayout>
+</ScrollView>

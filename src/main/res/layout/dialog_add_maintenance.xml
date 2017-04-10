@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#0a445c"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/DialogMaintenanceItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/item_name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/DialogMaintenanceDate"
+        android:hint="@string/date_check"
+        android:inputType="date"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/DialogMaintenanceKilometers"
+        android:hint="@string/kilometers_check"
+        android:inputType="number"
+        />
+
+    <Button
+        android:id="@+id/DialogMaintenanceButtonOK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ok"
+        android:textColor="#fff"
+        android:background="@drawable/button_layout"
+        />
+
+</LinearLayout>
+</ScrollView>

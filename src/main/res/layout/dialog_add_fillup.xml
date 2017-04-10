@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#0a445c"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/DialogFillUpTotalPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/final_price"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/DialogFillUpFuelPrice"
+        android:hint="@string/fuel_price"
+        android:inputType="numberDecimal"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/DialogFillUpLiters"
+        android:hint="@string/fuel_amount"
+        android:inputType="numberDecimal"
+        />
+
+    <EditText
+        android:id="@+id/DialogFillUpLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/location"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/DialogFillUpDate"
+        android:inputType="date"/>
+
+    <Spinner
+        android:id="@+id/DialogFillUpFuel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/fuel_arrays"
+        android:prompt="@string/fuel_prompt"
+        />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="10dp"/>
+
+    <Button
+        android:id="@+id/DialogFillUpButtonOK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ok"
+        android:textColor="#fff"
+        android:background="@drawable/button_layout"
+        />
+
+</LinearLayout>
+</ScrollView>
